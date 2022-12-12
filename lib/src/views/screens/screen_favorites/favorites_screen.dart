@@ -16,7 +16,6 @@ class FavoritesScreen extends StatefulWidget {
 }
 
 class _FavoritesScreenState extends State<FavoritesScreen> {
-  // late FavoriteBloc favoriteBloc;
   late final FavoriteController favoriteController;
 
   @override
@@ -25,9 +24,6 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     favoriteController =
         FavoriteController(FavoriteRepositoryImpl(FavoriteHelper()));
     super.initState();
-    /* favoriteBloc = FavoriteBloc();
-    favoriteBloc.add(LoadFavoriteEvent());
-    */
   }
 
   @override
