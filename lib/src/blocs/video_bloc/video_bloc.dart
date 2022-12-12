@@ -1,7 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:curso_youtube/src/blocs/video_bloc/video_event.dart';
 import 'package:curso_youtube/src/blocs/video_bloc/video_state.dart';
-import 'package:curso_youtube/src/model/video.dart';
 import 'package:curso_youtube/src/repositories/search/search_repository.dart';
 import 'package:rx_notifier/rx_notifier.dart';
 
