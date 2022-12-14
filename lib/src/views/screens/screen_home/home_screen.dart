@@ -292,7 +292,7 @@ class _HomeScreenState extends State<HomeScreen> {
         context: context,
         builder: (context) {
           return SizedBox(
-            height: 200,
+            height: 210,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
