@@ -149,7 +149,7 @@ class ApiYt extends ChangeNotifier {
       notifyListeners();
       return retorno;
     } catch (e) {
-      status = "Erro no Download. Tente Novamente: ${e.toString()}";
+      status = "Erro ao baixar. Tente Novamente: ${e.toString()}";
       notifyListeners();
       throw e.toString();
     }
