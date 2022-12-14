@@ -111,7 +111,7 @@ class ApiYt extends ChangeNotifier {
         return true;
       }
     } catch (e) {
-      status = "Erro de Diretorio: ${e.toString()}";
+      status = "Error teste de git de Diretorio: ${e.toString()}";
       throw e.toString();
     }
     return false;
